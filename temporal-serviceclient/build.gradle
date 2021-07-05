@@ -84,7 +84,7 @@ dependencies {
     api group: 'com.uber.m3', name: 'tally-core', version: '0.6.1'
     api group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
 
-    implementation 'io.grpc:grpc-netty-shaded:1.32.1'
+    implementation 'io.grpc:grpc-netty-shaded:1.39.0'
 
     testImplementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
     testImplementation group: 'com.googlecode.junit-toolbox', name: 'junit-toolbox', version: '2.4'
